@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">+DOG</string>
+    <string name="title_activity_scrolling">Acerca de</string>
+    <string name="large_text">
+
+        <b> "LOS PERROS \n\n" </b>
+
+        "El perro es un mamífero doméstico que pertenece al grupo de los carnívoros. \n\n
+        Es una subespecie del lobo gris, a quien se lo considera como su antepasado, y tiene semejanzas con los zorros y los chacales.\n\n"
+
+        "Los perros se caracterizan por:\n\n"
+
+           <i> "1) Ser muy afectuosos con los humanos.\n"</i>
+           <i> "2) Tener un sentido del olfato muy agudo.\n" </i>
+           <i> "3) Tener un amplio espectro auditivo.\n"</i>
+           <i> "4) Ser capaces de detectar el movimiento y la luz a la distancia.\n"</i>
+           <i> "5) Tener una piel externa que se renueva de manera periódica.\n\n"</i>
+
+        "Los perros son seres sociables y viven en manada con otros perros o con humanos. Suelen vivir unos 13 o 15 años y, algunos como los de raza pequeña, llegan a los 17 años.
+
+        La calidad de vida, tanto por la alimentación como por los cuidados de su salud, es un factor de influencia para la expectativa de vida\n\n"
+
+        "Los perros son carnívoros, al igual que sus antepasados, los lobos.Tienen 42 dientes diseñados para desgarrar a sus presas.
+
+        Entre los cuatro y nueve meses de vida suelen cambiar su dentadura por los dientes definitivos. Además, sus glándulas salivales segregan abundante saliva para dar comienzo al proceso de digestión en la boca.\n\n"
+
+        "Debido a la domesticación por parte de los humanos, también suelen comer verduras o cereales cocidos,como el arroz, y alimentos balanceados que concentran todos los nutrientes necesarios para mantener su buena salud. Dependiendo de su edad y estilo de vida, necesitan consumir entre 1300 y 3500 calorías por día.\n\n"
+
+        La capacidad de reproducción de los perros se da a temprana edad, tanto con la madurez sexual de las hembras (que se produce entre los 8 y los 12 meses luego de la aparición de su primer celo), como con la madurez sexual de los machos (que se da un poco más tarde, a partir de los 15 meses. \n\n
+        Sin embargo, para un mejor desarrollo del perro se aconseja permitir el apareamiento a partir del año y medio. \n\n\n
+
+        La gestación en las hembras suele durar dos meses. Las perras de tamaño pequeño suelen dar a luz entre dos y tres crías, mientras que las de tamaño más grande pueden tener entre cinco y siete crías.
+        La cantidad de bebés dependerá de la raza, la salud y demás aspectos de la hembra. \n\n
+
+        El perro posee dos sentidos especialmente bien desarrollados: el olfato y el oído. Empezaremos por el más importante, el sentido del olfato, fundamental para la caza, las conductas sociales y las sexuales. A diferencia del humano, que posee únicamente 5 millones de receptores olfativos, el perro posee entre 200 y 300 millones de receptores olfativos. Otro aspecto clave es el sentido del oído, mucho más agudo que el del ser humano. \n\n
+
+        Siguiendo con las características de los perros, debemos saber que en la actualidad existen más de 300 razas de perros, reconocidas por unas u otras organizaciones cinológicas, como pueden ser la FCI (Fédération cynologique internationale) o The Kennel Club, dos de las más importantes. Así mismo, existen otras razas que son reconocidas por federaciones secundarias, gobiernos y autonomías.
+    </string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Datos del perro</string>
+    <string name="second_fragment_label">Datos del dueño del perro</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Volver</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment</string>
+</resources>

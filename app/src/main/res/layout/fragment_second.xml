@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".SecondFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/msjNombreD"
+        android:text="Ingresa el nombre del dueño:"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/txtNombreD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msjNombreD" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/msjSexoD"
+        android:text="Sexo:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/txtNombreD"/>
+
+    <EditText
+        android:id="@+id/txtSexoD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masculino/Femenino"
+        android:layout_below="@id/msjSexoD" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/msjEdadD"
+        android:text="Edad:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/txtSexoD"/>
+
+    <EditText
+        android:id="@+id/txtEdadD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msjEdadD"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/msjDomicilio"
+        android:text="Domicilio:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/txtEdadD"/>
+
+    <EditText
+        android:id="@+id/txtDomicilio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msjDomicilio" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/msjTel"
+        android:text="Telefono:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/txtDomicilio"/>
+
+    <EditText
+        android:id="@+id/txtTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="1234567890"
+        android:inputType="number"
+        android:layout_below="@id/msjTel" />
+
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/previous"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/txtTel" />
+
+    <Button
+        android:id="@+id/btnGuardarU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/txtTel"
+        android:layout_toRightOf="@id/button_second"/>
+
+
+</RelativeLayout>

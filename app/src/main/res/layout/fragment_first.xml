@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/msjNombre"
+       android:text="Ingresa el nombre del perro:"
+       android:textSize="20dp"
+       android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/txtNombrePerro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msjNombre" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/msjSexo"
+        android:text="Sexo:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/txtNombrePerro"/>
+
+    <EditText
+        android:id="@+id/txtSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Macho/Hembra"
+        android:layout_below="@id/msjSexo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/msjEdad"
+        android:text="Edad:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/txtSexo"/>
+
+    <EditText
+        android:id="@+id/txtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msjEdad"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/msjPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEdad"
+        android:text="Peso (Kg):"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+ <EditText
+     android:id="@+id/txtPeso"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/msjPeso"
+     android:inputType="numberDecimal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/msjRaza"
+        android:text="Raza:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/txtPeso"/>
+
+    <EditText
+        android:id="@+id/txtRaza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chihuahua, etc."
+        android:layout_below="@id/msjRaza" />
+
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="@string/next"
+       android:layout_below="@id/txtRaza" />
+
+    <Button
+        android:id="@+id/btnGuardarP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GUARDAR"
+        android:layout_below="@id/txtRaza"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@id/button_first"/>
+
+
+
+</RelativeLayout>
